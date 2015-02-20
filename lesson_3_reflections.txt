@@ -6,24 +6,34 @@ That way your work doesn't depend on a single computer.
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Maybe you are working on something and Git automatically pulls it in,
+	and somehow that makes you lose work.  It's the sort of thing
+where you would want that control over whatever advantage automatic brings.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+Fork makes a separate copy that gives credit to the original, clone makes a 
+copy that I think is tied to the original unless you change where it points,
+and branch makes a new set of the code, good for making new changes that you don't
+intend to change in the original right away.  So clone for your projects, fork
+to play with someone else's projects, and branch to play around with new features on
+your projects(?).
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    That way you know when the state of the remote has changed.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+   Harder to make changes as quickly, possibly easier to avoid a complex mess.
+Harder to work with physical distance.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+You can be reasonably sure that master is good and working, if everyone makes changes in
+their own branches and only adds it to master through a pull request that many people
+get to see first.
